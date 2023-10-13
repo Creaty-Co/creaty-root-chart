@@ -1,0 +1,11 @@
+argocd:
+  version: 5.46.8
+
+sealedSecrets:
+  version: 2.13.0
+
+metricsServer:
+  version: 3.11.0
+
+ingressNginx:
+  version: 4.7.2

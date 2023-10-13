@@ -1,0 +1,37 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: ingress-nginx
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  project: default
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: metrics
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    retry:
+      backoff:
+        duration: 1m
+        factor: 2
+        maxDuration: 4m
+      limit: 3
+    syncOptions:
+      - CreateNamespace=true
+      - PruneLast=true
+      - RespectIgnoreDifferences=true
+      - ServerSideApply=true
+  sources:
+    - ref: values
+      repoURL: https://github.com/Creaty-Co/creaty-chart
+      targetRevision: main
+    - repoURL: https://kubernetes.github.io/ingress-nginx
+      chart: ingress-nginx
+      targetRevision: {{ .Values.ingressNginx.version }}
+      helm:
+        valueFiles:
+          - $values/values/ingress-nginx.yaml

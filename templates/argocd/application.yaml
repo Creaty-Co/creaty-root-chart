@@ -1,0 +1,32 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: argocd
+  namespace: argocd
+spec:
+  project: default
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: argocd
+  syncPolicy:
+    retry:
+      backoff:
+        duration: 1m
+        factor: 2
+        maxDuration: 4m
+      limit: 3
+    syncOptions:
+      - CreateNamespace=true
+      - PruneLast=true
+      - RespectIgnoreDifferences=true
+      - ServerSideApply=true
+  sources:
+    - ref: values
+      repoURL: https://github.com/Creaty-Co/creaty-chart
+      targetRevision: main
+    - repoURL: https://argoproj.github.io/argo-helm
+      chart: argo-cd
+      targetRevision: {{ .Values.argocd.version }}
+      helm:
+        valueFiles:
+          - $values/values/argocd.yaml
