@@ -22,7 +22,7 @@ spec:
       - ServerSideApply=true
   sources:
     - ref: values
-      repoURL: https://github.com/Creaty-Co/creaty-chart
+      repoURL: https://github.com/Creaty-Co/creaty-root-chart
       targetRevision: main
     - repoURL: https://argoproj.github.io/argo-helm
       chart: argo-cd

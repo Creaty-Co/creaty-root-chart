@@ -24,6 +24,6 @@ spec:
       - RespectIgnoreDifferences=true
       - ServerSideApply=true
   source:
-    repoURL: https://github.com/Creaty-Co/creaty-chart
+    repoURL: https://github.com/Creaty-Co/creaty-root-chart
     targetRevision: main
     path: .
