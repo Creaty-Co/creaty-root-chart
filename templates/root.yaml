@@ -26,3 +26,4 @@ spec:
   source:
     repoURL: https://github.com/Creaty-Co/creaty-chart
     targetRevision: main
+    path: .
