@@ -9,7 +9,7 @@ spec:
   project: default
   destination:
     server: https://kubernetes.default.svc
-    namespace: metrics
+    namespace: ingress-nginx
   syncPolicy:
     retry:
       backoff:
