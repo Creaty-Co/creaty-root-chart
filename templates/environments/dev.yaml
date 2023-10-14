@@ -34,5 +34,5 @@ spec:
       path: .
       helm:
         valueFiles:
-          - $values/values/dev.yaml
-          - $values/values/global.yaml
+          - $values/values/environments/dev.yaml
+          - $values/values/environments/global.yaml
