@@ -1,0 +1,38 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: dev
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  project: default
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: dev
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    retry:
+      backoff:
+        duration: 1m
+        factor: 2
+        maxDuration: 4m
+      limit: 3
+    syncOptions:
+      - CreateNamespace=true
+      - PruneLast=true
+      - RespectIgnoreDifferences=true
+      - ServerSideApply=true
+  sources:
+    - ref: values
+      repoURL: https://github.com/Creaty-Co/creaty-root-chart
+      targetRevision: main
+    - repoURL: https://github.com/Creaty-Co/creaty-chart
+      targetRevision: main
+      path: .
+      helm:
+        valueFiles:
+          - $values/values/dev.yaml
+          - $values/values/global.yaml
