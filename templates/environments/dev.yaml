@@ -26,9 +26,6 @@ spec:
       - RespectIgnoreDifferences=true
       - ServerSideApply=true
   sources:
-    - ref: values
-      repoURL: https://github.com/Creaty-Co/creaty-root-chart
-      targetRevision: main
     - repoURL: https://github.com/Creaty-Co/creaty-chart
       targetRevision: main
       path: .
@@ -36,3 +33,6 @@ spec:
         valueFiles:
           - $values/values/environments/dev.yaml
           - $values/values/environments/global.yaml
+    - ref: values
+      repoURL: https://github.com/Creaty-Co/creaty-root-chart
+      targetRevision: main

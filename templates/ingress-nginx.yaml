@@ -21,12 +21,12 @@ spec:
       - RespectIgnoreDifferences=true
       - ServerSideApply=true
   sources:
-    - ref: values
-      repoURL: https://github.com/Creaty-Co/creaty-root-chart
-      targetRevision: main
     - repoURL: https://kubernetes.github.io/ingress-nginx
       chart: ingress-nginx
       targetRevision: {{ .Values.ingressNginx.version }}
       helm:
         valueFiles:
           - $values/values/ingress-nginx.yaml
+    - ref: values
+      repoURL: https://github.com/Creaty-Co/creaty-root-chart
+      targetRevision: main
