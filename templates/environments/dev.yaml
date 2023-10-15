@@ -31,8 +31,8 @@ spec:
       path: .
       helm:
         valueFiles:
-          - $values/values/environments/dev.yaml
           - $values/values/environments/global.yaml
+          - $values/values/environments/dev.yaml
     - ref: values
       repoURL: https://github.com/Creaty-Co/creaty-root-chart
       targetRevision: main
