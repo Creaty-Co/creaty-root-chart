@@ -24,15 +24,13 @@ spec:
       - ServerSideApply=true
   sources:
     - repoURL: https://github.com/Creaty-Co/creaty-chart
-      targetRevision: {{ .Values.stage.chartVersion }}
+      targetRevision: {{ .Values.environments.stage.version }}
       path: .
       helm:
         valueFiles:
           - $values/values/environments/global.yaml
           - $values/values/environments/stage.yaml
-        parameters:
-          - name: version
-            value: {{ .Values.environments.stage.version }}
+        parameters: {{- include "parameters" .Values.environments.stage | indent 10 }}
     - ref: values
       repoURL: https://github.com/Creaty-Co/creaty-root-chart
-      targetRevision: {{ .Values.stage.chartVersion }}
+      targetRevision: {{ .Values.environments.stage.version }}

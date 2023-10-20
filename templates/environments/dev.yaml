@@ -33,6 +33,7 @@ spec:
         valueFiles:
           - $values/values/environments/global.yaml
           - $values/values/environments/dev.yaml
+        parameters: {{- include "parameters" .Values.environments.dev | indent 10 }}
     - ref: values
       repoURL: https://github.com/Creaty-Co/creaty-root-chart
       targetRevision: main
