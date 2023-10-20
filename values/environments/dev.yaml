@@ -7,15 +7,6 @@ secrets:
     cal-postgres-secrets:
       POSTGRES_PASSWORD: AgBOMpb6lPJV4lGwzyyFp4P1a64/BaGd1AaFeUJ4EPxfK3lDYq1HfRilzr4wrm3v6BXBoE/H6nfcu72vrK73GdAzkyU8s781kzPL0ZnUiEshB7ZkcMOnFD9arLugxXic1Z79hJtNSYb84ujFz9DNs3t3yI5Odt2zmPeAdi8v+Yz+QTVkEmG9atS+HReHYKwHnYCnTlab1tU5L3aFz5S1WjYZdTtNJ1Mltfgy+z32V/6jKarT8aldjDA3qUfSC9mut5FBJUR5GFbJrNKkdgq0mRPhwR8PHAURuVP9VRaN88P5HE07Hx6y2w95GEA3y0vn7nsMXOU9VHu2V4md6WaF7HTOLVLVHGw6a0bvzPsRoO+2Mc7DMtTC9giMnZu7OqF6NY3txlI6fukifs0EjDNTbzvz47mdXsZmP/TSH1YOHzqWkTGwzzkn6fyHaVaz7HMQ3zILQe2q3hgnjHfQkaGooSfm2pM+o5sPfZIIWs8lWi5MLfvgJX+gSpxeiwfD+v6N1xz0zmec/9uFr9lRcydeK4LfgW5tnvPJf55p3PKT2HUbAvFIcHshRHl8m/9ssrtp40DJMkamGKgK88tVvVt8Zm6IxjtiAXebE1XwjcrXJ1minvTd81FoirEsfo+jhbAQYyDubZwYm/D8vRNQDgXhbGH0BTwc+PaGuiz00E1rqx/2gzD7SKfs5M/0gvivB9zOhO070QmDOrjG
 
-redis:
-  vars:
-    maxmemory: 30mb
-  resources:
-    requests:
-      memory: 40Mi
-    limits:
-      memory: 60Mi
-
 postgres:
   nodePorts:
     main: '{{ .Values.global.nodePorts.dev.postgres.main }}'

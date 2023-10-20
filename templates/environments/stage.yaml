@@ -33,4 +33,4 @@ spec:
         parameters: {{- include "parameters" .Values.environments.stage | indent 10 }}
     - ref: values
       repoURL: https://github.com/Creaty-Co/creaty-root-chart
-      targetRevision: {{ .Values.environments.stage.version }}
+      targetRevision: main

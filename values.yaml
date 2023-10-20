@@ -13,3 +13,5 @@ metricsServer:
   version: 3.11.0
 ingressNginx:
   version: 4.7.2
+reloader:
+  version: 1.0.46
