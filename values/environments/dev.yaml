@@ -1,5 +1,5 @@
 api_version: 57cf46b8c281527b16d17a905f852a8ff945cca5
-web_version: v2.12.0
+web_version: 7194962ce37e94bcff2342ac351e40ee8dd26942
 
 secrets:
   Opaque:
