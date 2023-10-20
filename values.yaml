@@ -1,19 +1,15 @@
 environments:
   dev:
-    api_version: 57cf46b8c281527b16d17a905f852a8ff945cca5
+    api_version: 41bd4bacdf6e852e64c1c6619dbcbdff20163c6d
     web_version: 7194962ce37e94bcff2342ac351e40ee8dd26942
-    sentry_release: init
+    sentry_release: Update call-update_version.yml
   stage:
     version: v2.13.0
-
 argocd:
   version: 5.46.8
-
 sealedSecrets:
   version: 2.13.0
-
 metricsServer:
   version: 3.11.0
-
 ingressNginx:
   version: 4.7.2
