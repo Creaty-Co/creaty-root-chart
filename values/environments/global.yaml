@@ -5,6 +5,11 @@ global:
         main: 31000
       cal_postgres:
         main: 31001
+    stage:
+      postgres:
+        main: 31002
+      cal_postgres:
+        main: 31003
   secrets:
     Opaque:
       global-api-secrets:

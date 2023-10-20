@@ -1,3 +1,11 @@
+environments:
+  dev:
+    api_version: 57cf46b8c281527b16d17a905f852a8ff945cca5
+    web_version: 7194962ce37e94bcff2342ac351e40ee8dd26942
+    sentry_release: init
+  stage:
+    version: v2.13.0
+
 argocd:
   version: 5.46.8
 
