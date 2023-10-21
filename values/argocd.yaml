@@ -9,7 +9,7 @@ configs:
     server.insecure: "true"
 
 server:
-  replicas: 2
+  replicas: 1
   ingress:
     enabled: true
     ingressClassName: nginx
@@ -17,4 +17,4 @@ server:
       - argocd.creaty.club
 
 controller:
-  replicas: 2
+  replicas: 1
