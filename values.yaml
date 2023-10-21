@@ -4,8 +4,8 @@ environments:
     web_version: fa55f9769003f187f2661d5ee18456a29f2a8bab
     sentry_release: ⬆️ Bump release-drafter--release-drafter from 5.24.0 to 5.25.0 (#477)
   stage:
-    enable: false
     version: v2.13.0
+    replicas: 1
 argocd:
   version: 5.46.8
 sealedSecrets:

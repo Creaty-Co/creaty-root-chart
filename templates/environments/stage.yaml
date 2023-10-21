@@ -1,4 +1,3 @@
-{{- if .Values.environments.stage.enable }}
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
@@ -35,4 +34,3 @@ spec:
     - ref: values
       repoURL: https://github.com/Creaty-Co/creaty-root-chart
       targetRevision: main
-{{- end }}

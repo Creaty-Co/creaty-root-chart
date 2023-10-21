@@ -10,10 +10,36 @@ secrets:
     cal-postgres-secrets:
       POSTGRES_PASSWORD: AgCoNme0dxxAasrYOtO6eprpbxJFqrLM2WhXqZjwFfuWfe0yI5nLZovU+onGeldswRO/8SCdrfz2bo85dAdP5fVcD7mv+9zMdE/Hn+Z/6zxxwXTaSpDwlpmFlNotKfHD4UN3uqYUOe9AvIEXrnbbkC/Rv+qZYclTbiX89Js+yd5lkoEwyBBNd3R6OeeEjiTPoUHyaZbUsEtT4XVq+fBnDtSMJevpk1C6fXM9M2TeP0x2lgLk+H0TsGfrBiMyKxjJKHKSWBZzth3df6e65WtJ7ta0iXGJfbakilqZVgiOovKpI4uB7xyZeaq7px2VgfoFU85T2M6SG46HYZXZik4cuPTS6HMoAAIUz6nOG4Ay/vl+eanqM1eA4Jywp7rQx7GWXRXbHrN3cWV5NkxjTAd4SC+L//0wQmTvYcucXDqN2Ym5sueOMEkKZil1BPzN8AX43ROip8yuG1mNdNxrE2vNnWUYM3aufZ4qT/xMJSBKs1o1Z5CD5BR1LXIHixgvWskcmBh2pIaAP9Ah768wnwJtx40cXpbpeKBWx6mCRE8SwFAIMpR8bXWS8UKTs5B8z4lWbRrdhadI8jCwgQO/WQaIMrcV7ir1WbrMbgb1BLYIU2G86l15zk4Eb5vmU0DN7tiBOrb+gne5UicUtsoGUmRgdbEZFfpAFjHK747CyFg2M6TRN8/3zLJVrghNONTlI1PaQIxPurkIR+cN2VLJcMrYxg9Oxw==
 
+api:
+  replicas: '{{ tpl .Values.replicas . }}'
+  ws:
+    replicas: '{{ tpl .Values.replicas . }}'
+
+nginx:
+  replicas: '{{ tpl .Values.replicas . }}'
+
+redis:
+  cache:
+    replicas: '{{ tpl .Values.replicas . }}'
+  cacheops:
+    replicas: '{{ tpl .Values.replicas . }}'
+  storage:
+    replicas: '{{ tpl .Values.replicas . }}'
+  celery:
+    replicas: '{{ tpl .Values.replicas . }}'
+
 postgres:
+  replicas: '{{ tpl .Values.replicas . }}'
   nodePorts:
     main: '{{ .Values.global.nodePorts.stage.postgres.main }}'
 
+cal:
+  api:
+    replicas: '{{ tpl .Values.replicas . }}'
+  web:
+    replicas: '{{ tpl .Values.replicas . }}'
+
 cal_postgres:
+  replicas: '{{ tpl .Values.replicas . }}'
   nodePorts:
     main: '{{ .Values.global.nodePorts.stage.cal_postgres.main }}'
