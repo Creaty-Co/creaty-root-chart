@@ -20,7 +20,13 @@ spec:
       - PruneLast=true
       - RespectIgnoreDifferences=true
       - ServerSideApply=true
-  source:
-    repoURL: https://kubernetes-sigs.github.io/metrics-server
-    chart: metrics-server
-    targetRevision: {{ .Values.metricsServer.version }}
+  sources:
+    - repoURL: https://kubernetes-sigs.github.io/metrics-server
+      chart: metrics-server
+      targetRevision: {{ .Values.metricsServer.version }}
+      helm:
+        valueFiles:
+          - $values/values/metrics.yaml
+    - ref: values
+      repoURL: https://github.com/Creaty-Co/creaty-root-chart
+      targetRevision: main
