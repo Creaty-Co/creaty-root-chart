@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 4fce67ea6eb65a0201289490d168f166cff568d2
+    api_version: 3a2ef8575e8fd51b656ee1a1177e6157b88a61ab
     web_version: fa55f9769003f187f2661d5ee18456a29f2a8bab
-    sentry_release: ⬆️ Bump release-drafter--release-drafter from 5.24.0 to 5.25.0 (#477)
+    sentry_release: Убрать сохранение префикса cloudinary в БД (#483)
   stage:
     enabled: false
     version: v2.13.0
