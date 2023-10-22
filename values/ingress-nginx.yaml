@@ -1,5 +1,5 @@
 controller:
-  replicaCount: 2
+  replicaCount: 1
   service:
     annotations:
       nginx.ingress.kubernetes.io/enable-http2: "true"
@@ -11,4 +11,4 @@ controller:
       https: http
   resources:
     requests:
-      memory: 100Mi
+      memory: 90Mi
