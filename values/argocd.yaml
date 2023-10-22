@@ -15,6 +15,37 @@ server:
     ingressClassName: nginx
     hosts:
       - argocd.creaty.club
+  resources:
+    requests:
+      memory: 70Mi
 
 controller:
   replicas: 1
+  resources:
+    requests:
+      memory: 130Mi
+
+dex:
+  resources:
+    requests:
+      memory: 30Mi
+
+redis:
+  resources:
+    requests:
+      memory: 10Mi
+
+repoServer:
+  resources:
+    requests:
+      memory: 100Mi
+
+applicationSet:
+  resources:
+    requests:
+      memory: 30Mi
+
+notifications:
+  resources:
+    requests:
+      memory: 40Mi
