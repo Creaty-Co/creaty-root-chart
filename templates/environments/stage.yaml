@@ -24,7 +24,7 @@ spec:
       - ServerSideApply=true
   sources:
     - repoURL: https://github.com/Creaty-Co/creaty-chart
-      targetRevision: main
+      targetRevision: {{ .Values.environments.stage.version }}
       path: .
       helm:
         valueFiles:
