@@ -1,6 +1,6 @@
-api_domain: prod-api.creaty.club
-web_domain: prod.creaty.club
-cal_domain: prod-cal.creaty.club
+api_domain: api.creaty.club
+web_domain: creaty.club
+cal_domain: cal.creaty.club
 
 secrets:
   Opaque:
