@@ -2,9 +2,6 @@ controller:
   replicaCount: 1
   config:
     use-forwarded-headers: "true"
-    forwarded-for-header: X-Forwarded-For
-    forwarded-host-header: X-Forwarded-Host
-    forwarded-proto-header: X-Forwarded-Proto
   service:
     annotations:
       nginx.ingress.kubernetes.io/enable-http2: "true"
