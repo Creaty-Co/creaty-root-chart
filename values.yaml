@@ -4,7 +4,7 @@ environments:
     web_version: fa55f9769003f187f2661d5ee18456a29f2a8bab
     sentry_release: Убрать сохранение префикса cloudinary в БД (#483)
   stage:
-    enabled: true
+    enabled: false
     version: v2.13.0
   prod:
     version: v2.13.0
