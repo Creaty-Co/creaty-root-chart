@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 3a2ef8575e8fd51b656ee1a1177e6157b88a61ab
+    api_version: ff3dcb5b946f2c519185da4b8b870ecc72ad51d2
     web_version: fa55f9769003f187f2661d5ee18456a29f2a8bab
-    sentry_release: Убрать сохранение префикса cloudinary в БД (#483)
+    sentry_release: '[pre-commit.ci] pre-commit autoupdate (#484)'
   stage:
     enabled: false
     version: v2.13.0
