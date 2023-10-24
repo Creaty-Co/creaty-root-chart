@@ -1,7 +1,8 @@
 prometheus:
-  resources:
-    requests:
-      memory: 420Mi
+  prometheusSpec:
+    resources:
+      requests:
+        memory: 420Mi
 
 grafana:
   ingress:
