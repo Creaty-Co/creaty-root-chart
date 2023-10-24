@@ -18,3 +18,5 @@ ingressNginx:
   version: 4.7.2
 reloader:
   version: 1.0.46
+prometheusStack:
+  version: 51.10.0
