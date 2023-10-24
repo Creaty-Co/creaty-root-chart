@@ -1,6 +1,14 @@
+prometheus:
+  resources:
+    requests:
+      memory: 420Mi
+
 grafana:
   ingress:
     enabled: true
     ingressClassName: nginx
     hosts:
       - grafana.creaty.club
+  resources:
+    requests:
+      memory: 300Mi
