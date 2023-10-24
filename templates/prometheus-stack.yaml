@@ -26,7 +26,7 @@ spec:
       targetRevision: {{ .Values.prometheusStack.version }}
       helm:
         valueFiles:
-          - $values/values/metrics.yaml
+          - $values/values/prometheus-stack.yaml
     - ref: values
       repoURL: https://github.com/Creaty-Co/creaty-root-chart
       targetRevision: main
