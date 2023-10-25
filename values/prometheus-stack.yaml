@@ -11,7 +11,7 @@ grafana:
     hosts:
       - grafana.creaty.club
   admin:
-    existingSecret: prometheus-stack-grafana
+    existingSecret: grafana-admin-password
   persistence:
     enabled: true
     storageClassName: do-block-storage-xfs-retain
