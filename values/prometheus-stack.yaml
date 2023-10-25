@@ -19,6 +19,12 @@ grafana:
 defaultRules:
   rules:
     etcd: false
+    kubeSchedulerAlerting: false
+    kubeSchedulerRecording: false
+    windows: false
 
 kubeEtcd:
+  enabled: false
+
+kubeScheduler:
   enabled: false
