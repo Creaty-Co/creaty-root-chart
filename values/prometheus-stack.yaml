@@ -10,8 +10,8 @@ grafana:
     ingressClassName: nginx
     hosts:
       - grafana.creaty.club
-  admin:
-    existingSecret: prometheus-stack-grafana
+#  admin:
+#    existingSecret: prometheus-stack-grafana
   resources:
     requests:
       memory: 300Mi
