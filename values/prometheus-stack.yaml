@@ -12,6 +12,10 @@ grafana:
       - grafana.creaty.club
   admin:
     existingSecret: prometheus-stack-grafana
+  persistence:
+    enabled: true
+    storageClassName: do-block-storage-xfs-retain
+    size: 1Gi
   resources:
     requests:
       memory: 300Mi
