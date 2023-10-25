@@ -10,8 +10,6 @@ grafana:
     ingressClassName: nginx
     hosts:
       - grafana.creaty.club
-  admin:
-    existingSecret: grafana-admin-password
   persistence:
     enabled: true
     storageClassName: do-block-storage-xfs-retain
