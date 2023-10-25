@@ -15,3 +15,11 @@ grafana:
   resources:
     requests:
       memory: 300Mi
+
+defaultRules:
+  create: true
+  rules:
+    etcd: false
+
+additionalRuleGroupLabels:
+  etcd: {}
