@@ -7,12 +7,14 @@ prometheus:
     - name: ingress-nginx
       podMonitor:
         namespaceSelector:
-          matchNames:
-            - ingress-nginx
+          any: true
         selector:
-          app.kubernetes.io/name: ingress-nginx
+          matchLabels:
+            app.kubernetes.io/name: ingress-nginx
         podMetricsEndpoints:
           - port: metrics
+            interval: 30s
+            path: /metrics
 
 grafana:
   ingress:
