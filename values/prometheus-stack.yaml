@@ -3,6 +3,15 @@ prometheus:
     resources:
       requests:
         memory: 420Mi
+  additionalPodMonitors:
+    - name: ingress-nginx
+      podMonitor:
+        namespaceSelector:
+          matchNames:
+            - ingress-nginx
+        selector:
+          matchLabels:
+            app.kubernetes.io/name: ingress-nginx
 
 grafana:
   ingress:
