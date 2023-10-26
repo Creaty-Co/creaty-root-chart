@@ -11,6 +11,9 @@ controller:
       service.beta.kubernetes.io/do-loadbalancer-redirect-http-to-https: "true"
     targetPorts:
       https: http
+  podAnnotations:
+    prometheus.io/scrape: "true"
+    prometheus.io/port: "10254"
   resources:
     requests:
       memory: 90Mi
