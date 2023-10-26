@@ -5,16 +5,14 @@ prometheus:
         memory: 420Mi
   additionalPodMonitors:
     - name: ingress-nginx
-      podMonitor:
-        namespaceSelector:
-          any: true
-        selector:
-          matchLabels:
-            app.kubernetes.io/name: ingress-nginx
-        podMetricsEndpoints:
-          - port: metrics
-            interval: 30s
-            path: /metrics
+      namespaceSelector:
+        matchNames:
+          - ingress-nginx
+      selector:
+        matchLabels:
+          app.kubernetes.io/name: ingress-nginx
+      podMetricsEndpoints:
+        - port: metrics
 
 grafana:
   ingress:
