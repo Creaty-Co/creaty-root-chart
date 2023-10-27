@@ -13,6 +13,8 @@ controller:
       https: http
   resources:
     requests:
-      memory: 90Mi
+      memory: 150Mi
+    limits:
+      memory: 200Mi
   metrics:
     enabled: true
