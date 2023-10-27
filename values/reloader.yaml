@@ -1,7 +1,7 @@
 reloader:
   deployment:
     resources:
-      limits:
-        memory: 20Mi
       requests:
+        memory: 20Mi
+      limits:
         memory: 30Mi
