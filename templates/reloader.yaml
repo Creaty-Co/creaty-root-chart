@@ -24,3 +24,9 @@ spec:
     - repoURL: https://stakater.github.io/stakater-charts
       chart: reloader
       targetRevision: {{ .Values.reloader.version }}
+      helm:
+        valueFiles:
+          - $values/values/reloader.yaml
+    - ref: values
+      repoURL: https://github.com/Creaty-Co/creaty-root-chart
+      targetRevision: main
