@@ -17,35 +17,49 @@ server:
       - argocd.creaty.club
   resources:
     requests:
-      memory: 70Mi
+      memory: 50Mi
+    limits:
+      memory: 90Mi
 
 controller:
   replicas: 1
   resources:
     requests:
-      memory: 130Mi
+      memory: 300Mi
+    limits:
+      memory: 400Mi
 
 dex:
   resources:
     requests:
       memory: 30Mi
+    limits:
+      memory: 40Mi
 
 redis:
   resources:
     requests:
       memory: 10Mi
+    limits:
+      memory: 20Mi
 
 repoServer:
   resources:
     requests:
-      memory: 100Mi
+      memory: 130Mi
+    limits:
+      memory: 160Mi
 
 applicationSet:
   resources:
     requests:
       memory: 30Mi
+    limits:
+      memory: 40Mi
 
 notifications:
   resources:
     requests:
+      memory: 30Mi
+    limits:
       memory: 40Mi

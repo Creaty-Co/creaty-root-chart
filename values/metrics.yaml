@@ -1,3 +1,5 @@
 resources:
   requests:
-    memory: 30Mi
+    memory: 35Mi
+  limits:
+    memory: 40Mi
