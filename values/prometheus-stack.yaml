@@ -2,7 +2,9 @@ prometheus:
   prometheusSpec:
     resources:
       requests:
-        memory: 420Mi
+        memory: 500Mi
+      limits:
+        memory: 600Mi
   additionalPodMonitors:
     - name: ingress-nginx
       namespaceSelector:
@@ -26,7 +28,9 @@ grafana:
     size: 1Gi
   resources:
     requests:
-      memory: 300Mi
+      memory: 330Mi
+    limits:
+      memory: 360Mi
 
 defaultRules:
   rules:
