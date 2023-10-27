@@ -48,7 +48,7 @@ repoServer:
     requests:
       memory: 130Mi
     limits:
-      memory: 160Mi
+      memory: 180Mi
 
 applicationSet:
   resources:
