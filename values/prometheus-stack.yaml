@@ -16,6 +16,13 @@ prometheus:
       podMetricsEndpoints:
         - port: metrics
 
+kubelet:
+  serviceMonitor:
+    cAdvisorMetricRelabelings:
+      - source_labels: [__address__]
+        action: drop
+        regex: 10\.124\.0\.4:10250
+
 grafana:
   ingress:
     enabled: true
