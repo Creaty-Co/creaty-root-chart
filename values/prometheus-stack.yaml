@@ -39,6 +39,9 @@ defaultRules:
     kubeSchedulerRecording: false
     windows: false
 
+kubeControllerManager:
+  enabled: false
+
 kubeEtcd:
   enabled: false
 
