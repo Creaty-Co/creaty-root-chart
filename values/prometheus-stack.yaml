@@ -1,14 +1,5 @@
 prometheus:
   prometheusSpec:
-    additionalAlertManagerConfigs:
-      - receivers:
-          - name: telegram-receiver
-            telegram_configs:
-              - sendResolved: true
-                botToken:
-                  name: prometheus-stack-secrets
-                  key: botToken
-                chatID: '-4045815842'
     resources:
       requests:
         memory: 500Mi
@@ -67,6 +58,17 @@ grafana:
       memory: 330Mi
     limits:
       memory: 360Mi
+
+alertmanager:
+  config:
+    receivers:
+      - name: telegram-receiver
+        telegram_configs:
+          - sendResolved: true
+            botToken:
+              name: prometheus-stack-secrets
+              key: botToken
+            chatID: '-4045815842'
 
 defaultRules:
   rules:
