@@ -63,7 +63,7 @@ alertmanager:
   config:
     receivers:
       - name: telegram-receiver
-        telegram_configs:
+        telegramConfigs:
           - sendResolved: true
             botToken:
               name: prometheus-stack-secrets
