@@ -12,7 +12,7 @@ prometheus:
         relabel_configs:
           - source_labels: [__address__]
             action: keep
-            regex: ^(?!10\.124\.0\.4:10250).*$
+            regex: '^(?!10\.124\.0\.4:10250).*$'
   additionalPodMonitors:
     - name: ingress-nginx
       namespaceSelector:
