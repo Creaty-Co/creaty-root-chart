@@ -130,6 +130,9 @@ defaultRules:
     kubeSchedulerRecording: false
     windows: false
 
+kubelet:
+  enabled: false
+
 kubeEtcd:
   enabled: false
 
