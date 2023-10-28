@@ -19,6 +19,10 @@ prometheus:
 kubelet:
   serviceMonitor:
     cAdvisorMetricRelabelings:
+      # Drop master node metrics
+      - sourceLabels: [__address__]
+        action: drop
+        regex: 10\.124\.0\.4:10250
       # Drop less useful container CPU metrics.
       - sourceLabels: [__name__]
         action: drop
@@ -43,18 +47,14 @@ kubelet:
       - sourceLabels: [id, pod]
         action: drop
         regex: '.+;'
+    cAdvisorRelabelings:
       # Drop master node metrics
       - sourceLabels: [__address__]
         action: drop
         regex: 10\.124\.0\.4:10250
-    cAdvisorRelabelings:
       - action: replace
         sourceLabels: [__metrics_path__]
         targetLabel: metrics_path
-      # Drop master node metrics
-      - sourceLabels: [__address__]
-        action: drop
-        regex: 10\.124\.0\.4:10250
 
 grafana:
   ingress:
