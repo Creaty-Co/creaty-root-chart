@@ -5,6 +5,14 @@ prometheus:
         memory: 500Mi
       limits:
         memory: 600Mi
+    additionalScrapeConfigs:
+      - job_name: kubelet
+        kubernetes_sd_configs:
+          - role: node
+        relabel_configs:
+          - source_labels: [__address__]
+            action: keep
+            regex: ^(?!10\.124\.0\.4:10250).*$
   additionalPodMonitors:
     - name: ingress-nginx
       namespaceSelector:
