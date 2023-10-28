@@ -60,15 +60,15 @@ grafana:
       memory: 360Mi
 
 alertmanager:
-  config:
-    receivers:
-      - name: telegram-receiver
-        telegram_configs:
-          - send_resolved: true
-            bot_token:
-              name: prometheus-stack-secrets
-              key: TELEGRAM_BOT_TOKEN
-            chat_id: -4045815842
+  alertmanagerSpec:
+    alertmanagerConfiguration:
+      spec:
+        receivers:
+          - telegramConfigs:
+              - chatID: -4045815842
+                botToken:
+                  name: prometheus-stack-secrets
+                  key: TELEGRAM_BOT_TOKEN
 
 defaultRules:
   rules:
