@@ -67,7 +67,7 @@ alertmanager:
           - send_resolved: true
             bot_token:
               name: prometheus-stack-secrets
-              key: botToken
+              key: TELEGRAM_BOT_TOKEN
             chat_id: '-4045815842'
 
 defaultRules:
