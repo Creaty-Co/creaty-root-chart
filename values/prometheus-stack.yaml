@@ -60,9 +60,6 @@ grafana:
       memory: 360Mi
 
 alertmanager:
-  config:
-    global:
-      resolve_timeout: 5m
   alertmanagerSpec:
     alertmanagerConfiguration:
       name: alertmanager-config

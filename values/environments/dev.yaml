@@ -7,9 +7,6 @@ secrets:
     cal-postgres-secrets:
       POSTGRES_PASSWORD: AgATfBvQi+F49mNWxklh3/TE23PXD7dqlILBflSSkpiMGq83ys28m91krn3eIZLNZkWC5uD64dkUZOCPcDfpYKiUKOTUaQ86DeR64Xkr22Hrd5vE60o8nQiV599aDNtEQoDWUOzANmf9Qb4MQERaw0W1DBhnIYjBlXMitLLkGbammHwPiOTdPqq5X5byii6FJtfs8OC2VpEqbLJ0laonQ3vztQ20I1agE0ITJIwQ1ZQmzHIvMzdb/WdN+sXCYX/bY6day4df93lNS5q+jYBg//X6Ij2v31+R+cK3g9+LvqOF2XtGWtAUys0Zdd2rt6WmaZP31rZMbeD9i7Kzjw/VXNx1oAc6naLRUKqnhjp40h+Uu9yZB3lLTSO2X2i478K8dLnSRHsAAICaPG/c5NW3lrX8JM5VIdHmXIk9MOytNWs2rkt5J3hWLm1RCeHe31oxZr/eEVEGv74rwzhx35wL0KrCiPqHXOv65NQO0OL9CupmXiTmAEB/pktcbpH83QOg1YnEH783nqUf1VNuUw/qkESZeDIC9pQODUI2XH/uuW0X5gAeMICRH4uaG2TuegFKg4bsJnnL28U5qIxEi0GSJrHAZR/po7IOrf/qJyORFDmEAvi31qrDLG7pcJRzJosW3qYpGi3MTXF3BIyHxaRMXnaMui3w4KU/2sSqPQewYzSzVlchi8lJ8eVu/6mWZAGcMYGrfnxJRPY=
 
-api:
-  replicas: 10
-
 postgres:
   nodePorts:
     main: '{{ .Values.global.nodePorts.dev.postgres.main }}'
