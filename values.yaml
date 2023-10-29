@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 74c8ef0739c54287bf1019098368c4d4bda6e23a
+    api_version: 340cf28c5270b26d49bd875d8903b3a2b0647ed0
     web_version: fa55f9769003f187f2661d5ee18456a29f2a8bab
-    sentry_release: '⬆️ Bump faker from 19.10.0 to 19.11.0 (#481)'
+    sentry_release: '⬆️ Bump django-cors-headers from 4.2.0 to 4.3.0 (#472)'
   stage:
     enabled: false
     version: v2.14.0
