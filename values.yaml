@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: ff48c7f762e4d3531856fb8f4928fbcb572afbeb
+    api_version: 9d077750cef308169e9b3416c33eff7f4cecbd72
     web_version: fa55f9769003f187f2661d5ee18456a29f2a8bab
-    sentry_release: '⬆️ Bump actions--checkout from 4.1.0 to 4.1.1 (#480)'
+    sentry_release: '⬆️ Bump orjson from 3.9.8 to 3.9.10 (#486)'
   stage:
     enabled: false
     version: v2.14.0
