@@ -61,9 +61,8 @@ grafana:
 
 alertmanager:
   alertmanagerSpec:
-    alertmanagerConfigSelector:
-      matchLabels:
-        app: alertmanager-config
+    alertmanagerConfiguration:
+      name: alertmanager-config
 
 defaultRules:
   rules:
@@ -96,9 +95,7 @@ extraManifests:
   - apiVersion: monitoring.coreos.com/v1alpha1
     kind: AlertmanagerConfig
     metadata:
-      name: telegram-receiver
-      labels:
-        app: alertmanager-config
+      name: alertmanager-config
     spec:
       receivers:
         - name: telegram
@@ -107,3 +104,5 @@ extraManifests:
               botToken:
                 name: prometheus-stack-secrets
                 key: TELEGRAM_BOT_TOKEN
+      route:
+        receiver: telegram
