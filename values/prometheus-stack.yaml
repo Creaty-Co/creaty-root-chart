@@ -115,7 +115,7 @@ extraManifests:
                 key: TELEGRAM_BOT_TOKEN
       route:
         receiver: telegram
-        group_by: [namespace]
+        groupBy: [namespace]
         groupInterval: 5m
         groupWait: 30s
         repeatInterval: 1h
