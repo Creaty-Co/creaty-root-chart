@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 9d077750cef308169e9b3416c33eff7f4cecbd72
+    api_version: 1ad2252a9b4b535b79133137cf22f6b0e2f5dbeb
     web_version: fa55f9769003f187f2661d5ee18456a29f2a8bab
-    sentry_release: '⬆️ Bump orjson from 3.9.8 to 3.9.10 (#486)'
+    sentry_release: '⬆️ Bump social-auth-app-django from 5.3.0 to 5.4.0 (#479)'
   stage:
     enabled: false
     version: v2.14.0
