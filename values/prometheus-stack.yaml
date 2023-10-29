@@ -59,17 +59,6 @@ grafana:
     limits:
       memory: 360Mi
 
-alertmanager:
-  alertmanagerSpec:
-    alertmanagerConfiguration:
-      spec:
-        receivers:
-          - telegramConfigs:
-              - chatID: -4045815842
-                botToken:
-                  name: prometheus-stack-secrets
-                  key: TELEGRAM_BOT_TOKEN
-
 defaultRules:
   rules:
     etcd: false
@@ -85,3 +74,28 @@ kubeEtcd:
 
 kubeScheduler:
   enabled: false
+
+extraManifests:
+  - apiVersion: bitnami.com/v1alpha1
+    kind: SealedSecret
+    metadata:
+      name: prometheus-stack-secrets
+    spec:
+      encryptedData:
+        TELEGRAM_BOT_TOKEN: {{ .Values.global.secrets.prometheus_stack_secrets.TELEGRAM_BOT_TOKEN }}}
+      template:
+        metadata:
+          name: prometheus-stack-secrets
+        type: Opaque
+  - apiVersion: monitoring.coreos.com/v1alpha1
+    kind: AlertmanagerConfig
+    metadata:
+      name: telegram-receiver
+    spec:
+      receivers:
+        - name: telegram
+          telegramConfigs:
+            - chatID: -4045815842
+              botToken:
+                name: prometheus-stack-secrets
+                key: TELEGRAM_BOT_TOKEN
