@@ -138,3 +138,4 @@ extraManifests:
               - name: alertname
                 value: InfoInhibitor|Watchdog
                 matchType: =~
+            receiver: null
