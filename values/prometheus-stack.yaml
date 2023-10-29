@@ -121,6 +121,7 @@ extraManifests:
             - name: severity
               value: info
       receivers:
+        - name: 'null'
         - name: telegram
           telegramConfigs:
             - chatID: -4045815842
@@ -138,4 +139,4 @@ extraManifests:
               - name: alertname
                 value: InfoInhibitor|Watchdog
                 matchType: =~
-            receiver: null
+            receiver: 'null'
