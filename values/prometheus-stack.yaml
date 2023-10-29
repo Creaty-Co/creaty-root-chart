@@ -100,12 +100,12 @@ extraManifests:
       inhibitRules:
         - equal: [namespace, alertname]
           sourceMatch:
-            name: severity
-            value: critical
+            - name: severity
+              value: critical
           targetMatch:
-            name: severity
-            value: warning|info
-            mathType: =~
+            - name: severity
+              value: warning|info
+              mathType: =~
       receivers:
         - name: telegram
           telegramConfigs:
