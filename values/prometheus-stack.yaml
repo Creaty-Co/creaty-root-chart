@@ -59,6 +59,12 @@ grafana:
     limits:
       memory: 360Mi
 
+alertmanager:
+  alertmanagerSpec:
+    alertmanagerConfigSelector:
+      matchLabels:
+        app: alertmanager-config
+
 defaultRules:
   rules:
     etcd: false
@@ -91,6 +97,8 @@ extraManifests:
     kind: AlertmanagerConfig
     metadata:
       name: telegram-receiver
+      labels:
+        app: alertmanager-config
     spec:
       receivers:
         - name: telegram
