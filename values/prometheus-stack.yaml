@@ -106,6 +106,20 @@ extraManifests:
             - name: severity
               value: warning|info
               matchType: =~
+        - equal: [namespace, alertname]
+          sourceMatch:
+            - name: severity
+              value: warning
+          targetMatch:
+            - name: severity
+              value: info
+        - equal: [namespace]
+          sourceMatch:
+            - name: alertname
+              value: InfoInhibitor
+          targetMatch:
+            - name: severity
+              value: info
       receivers:
         - name: telegram
           telegramConfigs:
@@ -118,10 +132,9 @@ extraManifests:
         groupBy: [namespace]
         groupInterval: 5m
         groupWait: 30s
-        repeatInterval: 1h
+        repeatInterval: 5m
         routes:
           - matchers:
               - name: alertname
                 value: InfoInhibitor|Watchdog
                 matchType: =~
-            receiver: ''
