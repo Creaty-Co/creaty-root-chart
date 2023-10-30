@@ -1,7 +1,7 @@
 environments:
   dev:
     api_version: 05adbf746ec7af4dde15a1ac3170a1de809bf598
-    web_version: fa55f9769003f187f2661d5ee18456a29f2a8bab
+    web_version: f0d0dd54b840454125d196223e3b5085a9857df1
     sentry_release: "✨ Use GitMoji to preface the commit: \U0001F527 :wrench:"
   stage:
     enabled: false
