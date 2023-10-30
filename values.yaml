@@ -4,10 +4,10 @@ environments:
     web_version: 4ccb9bec0fbcabfdc72247f0d4a607fd5191298a
     sentry_release: "✨ Use GitMoji to preface the commit: \U0001F527 :wrench:"
   stage:
-    enabled: true
+    enabled: false
     version: v2.15.0
   prod:
-    version: v2.14.0
+    version: v2.15.0
 argocd:
   version: 5.46.8
 sealedSecrets:
