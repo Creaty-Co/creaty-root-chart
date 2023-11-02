@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 05adbf746ec7af4dde15a1ac3170a1de809bf598
+    api_version: 5d2d855e6ba24bc87514b13775611c87f8eea324
     web_version: 4ccb9bec0fbcabfdc72247f0d4a607fd5191298a
-    sentry_release: "✨ Use GitMoji to preface the commit: \U0001F527 :wrench:"
+    sentry_release: "⬆️ Bump twisted[http2] from 23.8.0 to 23.10.0 (#493)"
   stage:
     enabled: false
     version: v2.15.0
