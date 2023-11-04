@@ -20,7 +20,6 @@ api:
     CELERY_BROKER_POOL_LIMIT: "100"
     LOG_PRETTY: "0"
     LOG_REQUESTS: "0"
-    LOG_CONF: api=api_console,email_admins;gunicorn.server=web_console;daphne.server=web_console
 
 postgres:
   nodePorts:
