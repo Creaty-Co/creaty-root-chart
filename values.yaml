@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 5d2d855e6ba24bc87514b13775611c87f8eea324
+    api_version: 1b783defba4f8722a55e5c0587867db375160249
     web_version: 4ccb9bec0fbcabfdc72247f0d4a607fd5191298a
-    sentry_release: "⬆️ Bump twisted[http2] from 23.8.0 to 23.10.0 (#493)"
+    sentry_release: ":truck: Rename calcom module to cal in Django app structure :art: Refactor CalAPIRequester to use settings for base URL :truck: Move and rename CalcomTokenSerializer to GET_CalTokenSerializer :truck: Update imports and references due to module renaming :fire: Remove old Docker and environment configuration files for dev, prod, and stage environments :art: Update Django URL configurations for new Cal module :truck: Move CalcomConfig AppConfig to CalConfig :recycle: Refactor token view and serializer classes in cal module :truck: Move and rename CalcomTokenView to CalTokenView"
   stage:
     enabled: false
     version: v2.15.0
