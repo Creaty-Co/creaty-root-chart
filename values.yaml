@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 1b783defba4f8722a55e5c0587867db375160249
+    api_version: 7ede62c54091aebfee348e55f2a11d23fa63caba
     web_version: 4ccb9bec0fbcabfdc72247f0d4a607fd5191298a
-    sentry_release: ":truck: Rename calcom module to cal in Django app structure :art: Refactor CalAPIRequester to use settings for base URL :truck: Move and rename CalcomTokenSerializer to GET_CalTokenSerializer :truck: Update imports and references due to module renaming :fire: Remove old Docker and environment configuration files for dev, prod, and stage environments :art: Update Django URL configurations for new Cal module :truck: Move CalcomConfig AppConfig to CalConfig :recycle: Refactor token view and serializer classes in cal module :truck: Move and rename CalcomTokenView to CalTokenView"
+    sentry_release: ":recycle: Refactor code in user registration tests by mocking CalAuthService.register. :art: Improve structure--format of code in UsersRegisterTest class. :wrench: Update docker-compose.yml and docker--docker-compose.base.yml to modify network configurations."
   stage:
     enabled: false
     version: v2.15.0
