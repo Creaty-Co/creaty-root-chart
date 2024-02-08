@@ -1,7 +1,7 @@
 environments:
   dev:
     api_version: 7ede62c54091aebfee348e55f2a11d23fa63caba
-    web_version: dbe3061d1939e86e73fcb27b05d1226ad6190476
+    web_version: cdb0ad801b5bd40db93a27539522c07093f64194
     sentry_release: ":recycle: Refactor code in user registration tests by mocking CalAuthService.register. :art: Improve structure--format of code in UsersRegisterTest class. :wrench: Update docker-compose.yml and docker--docker-compose.base.yml to modify network configurations."
   stage:
     enabled: false
