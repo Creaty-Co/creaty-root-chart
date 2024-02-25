@@ -5,11 +5,11 @@ environments:
     sentry_release: "Не работает добавление тега (#517)"
   stage:
     enabled: false
-    version: v2.15.0
-    api_version: v2.16.0
+    version: v2.16.0
+    web_version: v2.15.0
   prod:
-    version: v2.15.0
-    api_version: v2.15.0
+    version: v2.16.0
+    web_version: v2.15.0
 argocd:
   version: 5.46.8
 sealedSecrets:
