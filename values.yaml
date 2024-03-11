@@ -1,7 +1,7 @@
 environments:
   dev:
     api_version: e350db881d5c03d82e86b72c74eb988e4a0e3143
-    web_version: eab4bdfc4bab9f385ca8ddab10622a286aeffb69
+    web_version: 005fa37d44246f687c86e3eee04277ac580a4774
     sentry_release: "Не работает добавление тега (#517)"
   stage:
     enabled: false
