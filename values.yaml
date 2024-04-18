@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 263b94e458ff2e21a25c2dd017c14aa314b5b923
+    api_version: 220b847b6bda86288ea1dbdb1a85c57ee00f3673
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "ValidationError: {_index': ['Ensure this value is less than or equal to 19.']} (#518)"
+    sentry_release: "Сделать несколько ссылок для менторов (#520)"
   stage:
     enabled: false
     version: v2.16.0
