@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: e350db881d5c03d82e86b72c74eb988e4a0e3143
+    api_version: 263b94e458ff2e21a25c2dd017c14aa314b5b923
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "Не работает добавление тега (#517)"
+    sentry_release: "ValidationError: {_index': ['Ensure this value is less than or equal to 19.']} (#518)"
   stage:
     enabled: false
     version: v2.16.0
