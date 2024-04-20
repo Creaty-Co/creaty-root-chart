@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: ab656ee3d428d02dfcd813c73a34a0a0712802d6
+    api_version: d5d5b52614625249a27b674c0ca85c3d9881e4ab
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "Merge remote-tracking branch _origin--main' into main"
+    sentry_release: "fix build caching 2"
   stage:
     enabled: false
     version: v2.16.0
