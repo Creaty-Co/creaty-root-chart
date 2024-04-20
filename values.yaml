@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 32a373523e951b4a75b43672760ac47a7575959e
+    api_version: ab656ee3d428d02dfcd813c73a34a0a0712802d6
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "test_sentry_release (#506)"
+    sentry_release: "Merge remote-tracking branch _origin--main' into main"
   stage:
     enabled: false
     version: v2.16.0
