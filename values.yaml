@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 9e00e888ebcc5ee963765539922f8a7c3a7d5519
+    api_version: 32a373523e951b4a75b43672760ac47a7575959e
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump getsentry--action-release from 1.4.1 to 1.7.0 (#513)"
+    sentry_release: "test_sentry_release (#506)"
   stage:
     enabled: false
     version: v2.16.0
