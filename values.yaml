@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: d5d5b52614625249a27b674c0ca85c3d9881e4ab
+    api_version: cbb725c35cfbfb08257a317a8fab29fc83ff9691
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "fix build caching 2"
+    sentry_release: "⬆️ Bump kentaro-m--auto-assign-action from 1.2.5 to 1.2.6 (№514)"
   stage:
     enabled: false
     version: v2.16.0
