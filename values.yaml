@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: fa44f1d6c1dd02b135d1e5b7afce063fe3369138
+    api_version: 9e00e888ebcc5ee963765539922f8a7c3a7d5519
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump pillow from 10.1.0 to 10.2.0 (#515)"
+    sentry_release: "⬆️ Bump getsentry--action-release from 1.4.1 to 1.7.0 (#513)"
   stage:
     enabled: false
     version: v2.16.0
