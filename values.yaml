@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: e375fab1fc7d18110e9f59264c947fba2e95be10
+    api_version: ca164a06101f6ebceb1f5780837ed468461c7f41
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump django from 4.2.6 to 4.2.7 (№499)"
+    sentry_release: "⬆️ Bump django-cacheops from 7.0.1 to 7.0.2 (№492)"
   stage:
     enabled: false
     version: v2.16.0
