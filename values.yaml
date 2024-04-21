@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 7a0aa0e616f46f25970b02f3312902fc631ac4b8
+    api_version: ef3f21577172a4ca6dc5a20ef42406f7c81c4633
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump djangorestframework from 3.14.0 to 3.15.1 (№546)"
+    sentry_release: "⬆️ Bump django-countries from 7.5.1 to 7.6.1 (№548)"
   stage:
     enabled: false
     version: v2.16.0
