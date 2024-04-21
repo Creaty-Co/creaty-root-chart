@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: ef3f21577172a4ca6dc5a20ef42406f7c81c4633
+    api_version: 5ee025dbee6722ff040c144af8c95732c106e0f6
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump django-countries from 7.5.1 to 7.6.1 (№548)"
+    sentry_release: "⬆️ Bump pydantic[email] from 2.4.2 to 2.7.0 (№545)"
   stage:
     enabled: false
     version: v2.16.0
