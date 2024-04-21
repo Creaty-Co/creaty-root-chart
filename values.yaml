@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 49c12e630f29392402e6bd2f61a671641809b8cf
+    api_version: 3b0eb7a3d1f14da4664dea3257c586764430050e
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump python from 3.12.0 to 3.12.3 (№528)"
+    sentry_release: "⬆️ Bump channels from 4.0.0 to 4.1.0 (№533)"
   stage:
     enabled: false
     version: v2.16.0
