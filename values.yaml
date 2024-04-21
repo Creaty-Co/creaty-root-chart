@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 8b65607316752d79b04b5a3ff4135537408bd606
+    api_version: c60b46ef12a585772636187b183ad9d6ecca4325
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump djangorestframework-simplejwt from 5.3.0 to 5.3.1 (№531)"
+    sentry_release: "⬆️ Bump codecov--codecov-action from 3.1.4 to 4.3.0 (№527)"
   stage:
     enabled: false
     version: v2.16.0
