@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: b2b63641f30c90f8902fa0e86eec3c927146b2f4
+    api_version: e1bf6747a6741ca9afa8b4dabaeaf75485a37175
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump twisted[http2] from 23.10.0 to 24.3.0 (№532)"
+    sentry_release: "⬆️ Bump gevent from 23.9.1 to 24.2.1 (№530)"
   stage:
     enabled: false
     version: v2.16.0
