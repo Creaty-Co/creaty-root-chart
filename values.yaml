@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: ca164a06101f6ebceb1f5780837ed468461c7f41
+    api_version: de087c0a43904e720057c3f68584cdce6ec93aed
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump django-cacheops from 7.0.1 to 7.0.2 (№492)"
+    sentry_release: "⬆️ Bump django-money from 3.3.0 to 3.4.0 (№491)"
   stage:
     enabled: false
     version: v2.16.0
