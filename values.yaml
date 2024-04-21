@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 321385588b2aec921f5302e9cbefd46a67740eee
+    api_version: 1ae77522f149a5785940ca22750b053e14240b74
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump django-advanced-password-validation from 1.1.1 to 1.2.0 (№539)"
+    sentry_release: "⬆️ Bump coverage from 7.3.2 to 7.4.4 (№540)"
   stage:
     enabled: false
     version: v2.16.0
