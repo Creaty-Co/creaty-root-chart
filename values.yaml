@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 9c9ce337748cbc1a2cf5e6e3a2f585288ff3ffd7
+    api_version: bced52ebec94099601ca35592affd8e009a79f9e
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump actions--setup-python from 5.0.0 to 5.1.0 (№526)"
+    sentry_release: "⬆️ Bump python-dateutil from 2.8.2 to 2.9.0.post0 (№537)"
   stage:
     enabled: false
     version: v2.16.0
