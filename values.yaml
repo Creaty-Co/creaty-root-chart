@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: b23b38b7f92e906db7bef798b2cdb7b1301e3e9d
+    api_version: 48bb1d46fe1971e67d9c0dcd6504091078b6d40e
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump pybase64 from 1.3.1 to 1.3.2 (№547)"
+    sentry_release: "⬆️ Bump faker from 20.1.0 to 24.11.0 (№551)"
   stage:
     enabled: false
     version: v2.16.0
