@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: dc50ae68b078c224198465f9b40f70dc2756bf88
+    api_version: 4f1fd9cf110701e612fca705dba58f7fd6355551
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump asgiref from 3.7.2 to 3.8.1 (№534)"
+    sentry_release: "⬆️ Bump django-cleanup from 8.0.0 to 8.1.0 (№536)"
   stage:
     enabled: false
     version: v2.16.0
