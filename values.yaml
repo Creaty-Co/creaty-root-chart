@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 9ba194c93ebe91527787be2be6465766ef3b993f
+    api_version: da599034bcd414248b5670b6738612d628010c1e
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "[pre-commit.ci] pre-commit autoupdate (№502)"
+    sentry_release: "⬆️ Bump actions--setup-python from 4.7.1 to 5.0.0 (№511)"
   stage:
     enabled: false
     version: v2.16.0
