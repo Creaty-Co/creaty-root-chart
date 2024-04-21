@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 066903d98d5bb015fdd1024a5afc6124a0db202d
+    api_version: 321385588b2aec921f5302e9cbefd46a67740eee
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump daphne from 4.0.0 to 4.1.2 (№538)"
+    sentry_release: "⬆️ Bump django-advanced-password-validation from 1.1.1 to 1.2.0 (№539)"
   stage:
     enabled: false
     version: v2.16.0
