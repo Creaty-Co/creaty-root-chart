@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: bced52ebec94099601ca35592affd8e009a79f9e
+    api_version: 28ecb9f9a5a9411a444d29188c3a49a8eef0fd52
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump python-dateutil from 2.8.2 to 2.9.0.post0 (№537)"
+    sentry_release: "⬆️ Bump psycopg from 3.1.12 to 3.1.18 (№535)"
   stage:
     enabled: false
     version: v2.16.0
