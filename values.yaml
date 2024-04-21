@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 15075c82c28eb534eae4d7497cf97323a10f738f
+    api_version: ae14f44f2a40fa3f50bb9879a8cb451795f4baff
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump gunicorn from 21.2.0 to 22.0.0 (№521)"
+    sentry_release: "⬆️ Bump orjson from 3.9.10 to 3.9.15 (№522)"
   stage:
     enabled: false
     version: v2.16.0
