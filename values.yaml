@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: ae14f44f2a40fa3f50bb9879a8cb451795f4baff
+    api_version: bb312de9a78994344727e140809415321a2c19d4
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump orjson from 3.9.10 to 3.9.15 (№522)"
+    sentry_release: "⬆️ Bump pillow from 10.2.0 to 10.3.0 (№523)"
   stage:
     enabled: false
     version: v2.16.0
