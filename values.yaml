@@ -1,7 +1,7 @@
 environments:
   dev:
     api_version: 0570b6321333924e999dda2b86f69666eeb60c24
-    web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
+    web_version: f72a9629b9ba64ed284e0cd98de66faf734aaef4
     sentry_release: "⬆️ Bump actions--checkout from 4.1.1 to 4.1.3 (№555)"
   stage:
     enabled: false
