@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 76b718dc1e3ec9683c2bc0025cf510ef6ecc3c81
+    api_version: 7f0dc1a59e1760a926918cef0299b2d804382c60
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump django-money from 3.4.0 to 3.4.1 (№542)"
+    sentry_release: "⬆️ Bump celery from 5.3.4 to 5.4.0 (№541)"
   stage:
     enabled: false
     version: v2.16.0
