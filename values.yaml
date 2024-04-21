@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: de087c0a43904e720057c3f68584cdce6ec93aed
+    api_version: 49c12e630f29392402e6bd2f61a671641809b8cf
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump django-money from 3.3.0 to 3.4.0 (№491)"
+    sentry_release: "⬆️ Bump python from 3.12.0 to 3.12.3 (№528)"
   stage:
     enabled: false
     version: v2.16.0
