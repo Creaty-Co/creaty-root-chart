@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: e1bf6747a6741ca9afa8b4dabaeaf75485a37175
+    api_version: 8b65607316752d79b04b5a3ff4135537408bd606
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump gevent from 23.9.1 to 24.2.1 (№530)"
+    sentry_release: "⬆️ Bump djangorestframework-simplejwt from 5.3.0 to 5.3.1 (№531)"
   stage:
     enabled: false
     version: v2.16.0
