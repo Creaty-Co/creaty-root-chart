@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: fdca3c65e5f65961ed13720cd492b7cb1b8ffd81
+    api_version: 9ba194c93ebe91527787be2be6465766ef3b993f
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump faker from 19.11.0 to 20.1.0 (№507)"
+    sentry_release: "[pre-commit.ci] pre-commit autoupdate (№502)"
   stage:
     enabled: false
     version: v2.16.0
