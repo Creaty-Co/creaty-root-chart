@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 83aff46895b586d5fb963685071dd9b675f2365f
+    api_version: 88ea57614e71b69ac25b5d87877750e11e730ce7
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump docker--build-push-action from 5.0.0 to 5.1.0 (№505)"
+    sentry_release: "⬆️ Bump python from 3.11.5 to 3.12.0 (№489)"
   stage:
     enabled: false
     version: v2.16.0
