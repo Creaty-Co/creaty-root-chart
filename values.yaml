@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 2a17b68d9b3f70936bb8b6592a856d1e2041bba7
+    api_version: 9c9ce337748cbc1a2cf5e6e3a2f585288ff3ffd7
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump release-drafter--release-drafter from 5.25.0 to 6.0.0 (№524)"
+    sentry_release: "⬆️ Bump actions--setup-python from 5.0.0 to 5.1.0 (№526)"
   stage:
     enabled: false
     version: v2.16.0
