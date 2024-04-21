@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 7f0dc1a59e1760a926918cef0299b2d804382c60
+    api_version: 65a73b06df7f5241054f341685883d0acedc448d
     web_version: 54dab61d7b81f163849f2043f57a39431a39a9ac
-    sentry_release: "⬆️ Bump celery from 5.3.4 to 5.4.0 (№541)"
+    sentry_release: "⬆️ Bump certifi from 2023.7.22 to 2024.2.2 (№544)"
   stage:
     enabled: false
     version: v2.16.0
