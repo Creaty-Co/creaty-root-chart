@@ -1,7 +1,7 @@
 environments:
   dev:
     api_version: 6d845e574fb9ad879aedf0935350d9ee0634af71
-    web_version: f50fe59f972860c4dd5eaf9d39ce9d83d48d35d5
+    web_version: e211429bbe2a8e1c9ec238a34e0bf44e6b414666
     sentry_release: "⬆️ Bump orjson from 3.9.15 to 3.10.1 (№554)"
   stage:
     enabled: false
