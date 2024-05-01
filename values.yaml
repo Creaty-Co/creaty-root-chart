@@ -22,3 +22,5 @@ reloader:
   version: 1.0.46
 prometheusStack:
   version: 51.10.0
+certManager:
+  version: v1.14.5
