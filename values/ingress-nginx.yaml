@@ -5,8 +5,6 @@ controller:
   service:
     annotations:
       nginx.ingress.kubernetes.io/enable-http2: "true"
-      service.beta.kubernetes.io/do-loadbalancer-http2-ports: "443"
-      service.beta.kubernetes.io/do-loadbalancer-redirect-http-to-https: "false"
   resources:
     requests:
       memory: 150Mi
