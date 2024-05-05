@@ -1,7 +1,7 @@
 environments:
   dev:
     api_version: 03e859733c6da936dfa1e891d0ca6df8274416e7
-    web_version: 9d381a25b7383a1e9377e5c8b7925b91f534efea
+    web_version: 5c4aa1a10b38e640bb24fa40f10c16a54b4d2a26
     sentry_release: "⬆️ Bump pre-commit--action from 3.0.0 to 3.0.1 (№557)"
   stage:
     enabled: false
