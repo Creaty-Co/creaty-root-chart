@@ -4,6 +4,9 @@ server:
     ingressClassName: nginx
     hosts:
       - host: vault.creaty.club
+  dataStorage:
+    size: 5Gi
+    storageClass: do-block-storage-xfs-retain
 
 ui:
   enabled: true
