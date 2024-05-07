@@ -12,6 +12,12 @@ api:
     limits:
       memory: 500Mi
 
+redis:
+  storage:
+    volumes:
+      data:
+        enabled: false
+
 postgres:
   nodePorts:
     main: '{{ .Values.global.nodePorts.dev.postgres.main }}'
