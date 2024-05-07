@@ -19,7 +19,7 @@ spec:
       - CreateNamespace=true
       - PruneLast=true
       - RespectIgnoreDifferences=true
-      - ServerSideApply=true
+      - ServerSideApply=false
   sources:
     - repoURL: https://helm.releases.hashicorp.com
       chart: vault
