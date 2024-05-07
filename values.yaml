@@ -24,3 +24,5 @@ prometheusStack:
   version: 51.10.0
 certManager:
   version: v1.14.5
+vault:
+  version: 0.28.0
