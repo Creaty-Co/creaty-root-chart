@@ -4,12 +4,12 @@ environments:
     web_version: d7f522ab59a29228fade604721d3eb09601914da
     sentry_release: "⬆️ Bump pre-commit--action from 3.0.0 to 3.0.1 (№557)"
   stage:
-    enabled: false
-    version: v2.16.0
-    web_version: v2.15.0
-  prod:
+    enabled: true
     version: v2.16.0
     web_version: v2.16.0
+  prod:
+    version: v2.16.0
+    web_version: v2.15.0
 argocd:
   version: 5.46.8
 sealedSecrets:
