@@ -6,7 +6,7 @@ environments:
   stage:
     enabled: true
     version: v2.16.1
-    web_version: v2.16.0
+    web_version: pre-v2.16.0
   prod:
     version: v2.16.0
     web_version: v2.15.0
