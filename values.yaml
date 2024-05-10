@@ -1,7 +1,7 @@
 environments:
   dev:
     api_version: e06796953726d51edcad4c7f406d53f9a68e5db2
-    web_version: d7f522ab59a29228fade604721d3eb09601914da
+    web_version: 2a7828677d921e29eef654c55db695292159e6b6
     sentry_release: "fix build cache"
   stage:
     enabled: true
