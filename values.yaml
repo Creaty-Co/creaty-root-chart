@@ -5,7 +5,7 @@ environments:
     sentry_release: "⬆️ Bump pre-commit--action from 3.0.0 to 3.0.1 (№557)"
   stage:
     enabled: true
-    version: v2.16.0
+    version: v2.16.1
     web_version: v2.16.0
   prod:
     version: v2.16.0
