@@ -5,7 +5,7 @@ configs:
           - cilium.io
         kinds:
           - CiliumIdentity
-    resource.customization:
+    resource.customization: |
       admissionregistration.k8s.io/MutatingWebhookConfiguration:
         ignoreDifferences: |
           jsonPointers:
