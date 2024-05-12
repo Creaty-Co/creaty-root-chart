@@ -5,6 +5,11 @@ configs:
           - cilium.io
         kinds:
           - CiliumIdentity
+    resource.customization:
+      admissionregistration.k8s.io/MutatingWebhookConfiguration:
+        ignoreDifferences: |
+          jsonPointers:
+            - /webhooks/0/clientConfig/caBundle
   params:
     server.insecure: "true"
 
