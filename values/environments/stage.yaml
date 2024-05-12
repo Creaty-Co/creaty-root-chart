@@ -41,10 +41,7 @@ postgres:
     main: '{{ .Values.global.nodePorts.stage.postgres.main }}'
 
 cal:
-  api:
-    replicas: '{{ if .Values.enabled }}1{{ else }}0{{ end }}'
-  web:
-    replicas: '{{ if .Values.enabled }}1{{ else }}0{{ end }}'
+  replicas: '{{ if .Values.enabled }}1{{ else }}0{{ end }}'
 
 cal_postgres:
   replicas: '{{ if .Values.enabled }}1{{ else }}0{{ end }}'
