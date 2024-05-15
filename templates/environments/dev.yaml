@@ -37,3 +37,8 @@ spec:
     - ref: values
       repoURL: https://github.com/Creaty-Co/creaty-root-chart
       targetRevision: main
+    - repoURL: https://github.com/Creaty-Co/creaty-chart
+      targetRevision: main
+      path: secrets
+      plugin:
+        name: argocd-vault
