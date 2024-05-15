@@ -8,11 +8,11 @@ configs:
     resource.customizations.ignoreDifferences.admissionregistration.k8s.io_MutatingWebhookConfiguration: |
       jsonPointers:
         - /webhooks/0/clientConfig/caBundle
-  configManagementPlugins: |
-    - name: argocd-vault
-      generate:
-        command: [argocd-vault-plugin]
-        args: [generate, ./]
+    configManagementPlugins: |
+      - name: argocd-vault
+        generate:
+          command: [argocd-vault-plugin]
+          args: [generate, ./]
   params:
     server.insecure: "true"
 
