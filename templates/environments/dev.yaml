@@ -42,3 +42,6 @@ spec:
       path: secrets
       plugin:
         name: argocd-vault
+        env:
+          - name: ENVIRONMENT
+            value: $ARGOCD_APP_NAME
