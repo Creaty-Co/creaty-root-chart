@@ -13,8 +13,13 @@ configs:
     plugins:
       argocd-vault:
         generate:
-          command: [argocd-vault-plugin]
-          args: [generate, ./]
+          command: [sh, -c]
+          args:
+            - >
+              find . -type f | while read -r file; do
+                envsubst < "$file" > "${file}.tmp" && mv "${file}.tmp" "$file"
+              done;
+              && argocd-vault-plugin generate ./
   params:
     server.insecure: "true"
 

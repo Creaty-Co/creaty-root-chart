@@ -2,11 +2,6 @@ name: "Dispatch: build ArgoCD images"
 
 on:
   workflow_dispatch:
-    inputs:
-      avp_version:
-        type: string
-        required: true
-        description: without "v" prefix
 
 jobs:
   build-argocd-vault:
@@ -31,6 +26,5 @@ jobs:
         with:
           context: images/argocd
           file: images/argocd/argocd-vault.dockerfile
-          build-args: ARGOCD_VAULT_PLUGIN_VERSION=${{ inputs.avp_version }}
           push: true
-          tags: ghcr.io/${{ env.REPOSITORY }}/argocd-vault:v${{ inputs.avp_version }}
+          tags: ghcr.io/${{ env.REPOSITORY }}/argocd-vault:v${{ github.sha }}
