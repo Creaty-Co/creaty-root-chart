@@ -61,7 +61,7 @@ redis:
 repoServer:
   extraContainers:
     - name: argocd-vault
-      image: ghcr.io/creaty-co/creaty-root-chart/argocd-vault:22063852e85bb483012ee17cbf22e471a30f60d8
+      image: ghcr.io/creaty-co/creaty-root-chart/argocd-vault:f8ae0d1cf23086184b86141869cd74a6645eb3e2
       env:
         - name: AVP_TYPE
           value: vault
