@@ -18,8 +18,7 @@ configs:
             - >
               find . -type f | while read -r file; do
                 envsubst < "$file" > "${file}.tmp" && mv "${file}.tmp" "$file"
-              done;
-              && argocd-vault-plugin generate ./
+              done && argocd-vault-plugin generate ./
   params:
     server.insecure: "true"
 
