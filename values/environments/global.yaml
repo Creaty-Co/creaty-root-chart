@@ -3,15 +3,15 @@ global:
     dev:
       postgres:
         main: 31000
-      cal_postgres:
+      platform_postgres:
         main: 31001
     stage:
       postgres:
         main: 31002
-      cal_postgres:
+      platform_postgres:
         main: 31003
     prod:
       postgres:
         main: 31004
-      cal_postgres:
+      platform_postgres:
         main: 31005
