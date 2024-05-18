@@ -34,7 +34,7 @@ postgres:
 cal:
   replicas: '{{ if .Values.enabled }}1{{ else }}0{{ end }}'
 
-cal_postgres:
+platform_postgres:
   replicas: '{{ if .Values.enabled }}1{{ else }}0{{ end }}'
   nodePorts:
-    main: '{{ .Values.global.nodePorts.stage.cal_postgres.main }}'
+    main: '{{ .Values.global.nodePorts.stage.platform_postgres.main }}'

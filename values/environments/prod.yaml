@@ -16,6 +16,6 @@ postgres:
   nodePorts:
     main: '{{ .Values.global.nodePorts.prod.postgres.main }}'
 
-cal_postgres:
+platform_postgres:
   nodePorts:
-    main: '{{ .Values.global.nodePorts.prod.cal_postgres.main }}'
+    main: '{{ .Values.global.nodePorts.prod.platform_postgres.main }}'

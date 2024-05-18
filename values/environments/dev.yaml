@@ -13,6 +13,6 @@ postgres:
   nodePorts:
     main: '{{ .Values.global.nodePorts.dev.postgres.main }}'
 
-cal_postgres:
+platform_postgres:
   nodePorts:
-    main: '{{ .Values.global.nodePorts.dev.cal_postgres.main }}'
+    main: '{{ .Values.global.nodePorts.dev.platform_postgres.main }}'
