@@ -1,9 +1,9 @@
 environments:
   dev:
-    api_version: e06796953726d51edcad4c7f406d53f9a68e5db2
+    api_version: 444f5f9b0adce67e0db76331111df451b3985f04
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
+    sentry_release: "Синхронизация учеток + slug c Cal.com (№503)"
     platform_version: 9582476fc1f498946084f03973c6ae9b07117f88
-    sentry_release: "fix build cache"
   stage:
     enabled: false
     version: v2.16.1
