@@ -33,3 +33,9 @@ spec:
     - repoURL: https://github.com/Creaty-Co/creaty-root-chart
       targetRevision: main
       path: manifests/vault
+  ignoreDifferences:
+    - group: admissionregistration.k8s.io
+      kind: MutatingWebhookConfiguration
+      name: vault-agent-injector-cfg
+      jsonPointers:
+        - /webhooks/0/objectSelector/matchExpressions
