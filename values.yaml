@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 444f5f9b0adce67e0db76331111df451b3985f04
+    api_version: 74af9857f78241416059d95e804f369cc6dfbc8f
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "Синхронизация учеток + slug c Cal.com (№503)"
+    sentry_release: "Настроить admin setup в platform (№578)"
     platform_version: 5a3f191643bb8b99c8a56fd91ca1a216a6d4ae4f
   stage:
     enabled: false
