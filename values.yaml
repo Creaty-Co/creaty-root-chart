@@ -3,7 +3,7 @@ environments:
     api_version: 74af9857f78241416059d95e804f369cc6dfbc8f
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
     sentry_release: "Настроить admin setup в platform (№578)"
-    platform_version: b81de93b45dae18f22c1f395a5316da6622a3482
+    platform_version: 075201d8dcf44ae3befacc37e93fabc91c81c31b
   stage:
     enabled: false
     version: v2.16.1
