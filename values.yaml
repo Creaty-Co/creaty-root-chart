@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 74af9857f78241416059d95e804f369cc6dfbc8f
+    api_version: f0e897c9b5da339d65de515e61a4ab04cb204216
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "Настроить admin setup в platform (№578)"
+    sentry_release: "Авторизация в Google с запросом необходимых разрешений (№586)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
