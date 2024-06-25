@@ -3,6 +3,8 @@ controller:
   config:
     use-forwarded-headers: "true"
     limit-req-status-code: 429
+    http-snippet: |
+      limit_req_zone $binary_remote_addr zone=dev_api:2m rate=10r/m;
   service:
     annotations:
       nginx.ingress.kubernetes.io/enable-http2: "true"
