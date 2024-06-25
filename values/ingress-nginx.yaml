@@ -2,6 +2,7 @@ controller:
   replicaCount: 1
   config:
     use-forwarded-headers: "true"
+    limit-req-status-code: 429
   service:
     annotations:
       nginx.ingress.kubernetes.io/enable-http2: "true"
