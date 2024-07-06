@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: af01fee80edb20c77d7755f7a00fe88b4f3a5a60
+    api_version: 14f43a399ac0a6e43c56ae645b291d9d1dcf250d
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "Ускорить сборку (№563)"
+    sentry_release: "⬆️ Bump certifi from 2024.2.2 to 2024.7.4 (№591)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
