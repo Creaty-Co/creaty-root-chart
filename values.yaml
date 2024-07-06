@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 132fa122cbaf018e00c4b3e53d64c82ef25322e9
+    api_version: af01fee80edb20c77d7755f7a00fe88b4f3a5a60
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump python from 3.12.3 to 3.12.4 (№587)"
+    sentry_release: "Ускорить сборку (№563)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
