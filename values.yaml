@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 14f43a399ac0a6e43c56ae645b291d9d1dcf250d
+    api_version: 7efcee3cedbdf5002136cf1cde80db43b17c0411
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump certifi from 2024.2.2 to 2024.7.4 (№591)"
+    sentry_release: "[pre-commit.ci] pre-commit autoupdate (№566)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
