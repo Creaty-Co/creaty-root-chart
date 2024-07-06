@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 8e9c1df1b61c76348ea34a05a0a74d4d54519d1d
+    api_version: e6a82c6176c314e090f05cea21375057841a10e8
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump docker--build-push-action from 5.1.0 to 5.3.0 (№556)"
+    sentry_release: "⬆️ Bump requests from 2.31.0 to 2.32.1 (№577)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
