@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 88c5c2048bdddad3ae156369b6b743edf2ec0d0f
+    api_version: 68cf832f2807718df3d7fd3084119720bc966fa8
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump django-cors-headers from 4.3.0 to 4.3.1 (№564)"
+    sentry_release: "⬆️ Bump social-auth-app-django from 5.4.0 to 5.4.1 (№565)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
