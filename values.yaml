@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 835e6d83af520c7c491256a272fe6fac2a24b847
+    api_version: d6dd75ce2e2230778c6f2507107e4163fecc729c
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump django-filter from 23.3 to 24.2 (№553)"
+    sentry_release: "⬆️ Bump actions--labeler from 4.3.0 to 5.0.0 (№509)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
