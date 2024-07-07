@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 314367665b75703ad28256585fcf13a5fb5bc16e
+    api_version: b24057de3fda678de0f6a5ab27946a2f4c3fdf35
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump actions--checkout from 4.1.3 to 4.1.7 (№593)"
+    sentry_release: "⬆️ Bump docker--login-action from 3.1.0 to 3.2.0 (№597)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
