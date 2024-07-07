@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: aa26ed79c17769c14555a23f5ac9aea3caf79f7b
+    api_version: e780b8df6e2235afafe3b52202059f6bd96d9eac
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump pydantic[email] from 2.7.0 to 2.8.2 (№602)"
+    sentry_release: "⬆️ Bump django-admin-interface from 0.28.6 to 0.28.8 (№603)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
