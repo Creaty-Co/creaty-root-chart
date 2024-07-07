@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: b24057de3fda678de0f6a5ab27946a2f4c3fdf35
+    api_version: 1f6682ea5b7296c2f4e4dcb6b465364ff2ab9f08
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump docker--login-action from 3.1.0 to 3.2.0 (№597)"
+    sentry_release: "⬆️ Bump pozil--auto-assign-issue from 1.14.0 to 2.0.0 (№598)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
