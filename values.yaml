@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: a958061916726425820c5a4adcfd537e6e46e444
+    api_version: 9673f945c6edf026ab4a4ae1eb8e756375718f9e
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump faker from 24.11.0 to 26.0.0 (№611)"
+    sentry_release: "⬆️ Bump django from 5.0.4 to 5.0.6 (№616)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
