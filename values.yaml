@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 692420bba1432969aa4fb0bca22ca354f2a72424
+    api_version: 278ef6217bfbcaee1573b3deeb11a8379fce34bf
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "Merge pull request №592"
+    sentry_release: "⬆️ Bump django from 4.2.7 to 5.0.4 (№550)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
