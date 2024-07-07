@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 8bb5fd60d8857573a737d4e5c99df825598b83e8
+    api_version: 8425c80bcad9b23da6d9fecd1cf767673bab52b9
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump requests from 2.32.1 to 2.32.3 (№604)"
+    sentry_release: "⬆️ Bump tablib[xlsx] from 3.5.0 to 3.6.1 (№605)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
