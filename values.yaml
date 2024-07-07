@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 1f6682ea5b7296c2f4e4dcb6b465364ff2ab9f08
+    api_version: 500f2b9317572223f7f52a6330f76e2612005bbf
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump pozil--auto-assign-issue from 1.14.0 to 2.0.0 (№598)"
+    sentry_release: "⬆️ Bump whitenoise from 6.6.0 to 6.7.0 (№601)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
