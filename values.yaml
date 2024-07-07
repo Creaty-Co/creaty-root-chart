@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 44ec81b4f6f9adbc91dbf3305e787bb37e7faba2
+    api_version: 00a1963062754cba6058bad696b7deb7eea01ce8
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump drf-spectacular from 0.26.5 to 0.27.2 (№609)"
+    sentry_release: "⬆️ Bump pillow from 10.3.0 to 10.4.0 (№613)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
