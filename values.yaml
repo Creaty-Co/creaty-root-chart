@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 278ef6217bfbcaee1573b3deeb11a8379fce34bf
+    api_version: 02c1f8ef2c3727061bcb13c7737a12d4cf9cc072
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump django from 4.2.7 to 5.0.4 (№550)"
+    sentry_release: "⬆️ Bump django-admin-interface from 0.26.1 to 0.28.6 (№561)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
