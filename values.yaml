@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: ec333bd8d8f77f8b2512b2ead51cc62bb338bf55
+    api_version: daad145ae7cb77086db849470c9a5231e19c89ba
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump coverage from 7.4.4 to 7.5.4 (№606)"
+    sentry_release: "⬆️ Bump psycopg from 3.1.18 to 3.2.1 (№608)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
