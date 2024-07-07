@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: f4c9cfbbc0416141096ae71ca12caf447bf03c5e
+    api_version: e5b11f79d43ad70f6358d7175cc78e36b6307f0e
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump orjson from 3.10.1 to 3.10.6 (№615)"
+    sentry_release: "⬆️ Bump django-modeltranslation from 0.18.11 to 0.19.5 (№614)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
