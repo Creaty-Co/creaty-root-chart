@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: ad9bb42a1a0bc609ee38fbd67910652addf59c74
+    api_version: aa26ed79c17769c14555a23f5ac9aea3caf79f7b
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump redis from 5.0.1 to 5.0.7 (№599)"
+    sentry_release: "⬆️ Bump pydantic[email] from 2.7.0 to 2.8.2 (№602)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
