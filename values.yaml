@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 4285896aa723e56f44e1d4ee1685473dd295b86c
+    api_version: 88a86798d9502f45486d04c9182b979fac70bbd0
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump docker--build-push-action from 5.3.0 to 6.3.0 (№596)"
+    sentry_release: "⬆️ Bump codecov--codecov-action from 4.4.0 to 4.5.0 (№595)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
