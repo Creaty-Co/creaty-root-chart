@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 4ccdc71010c99e7abc4e23f3f0fb9b2b8c250ead
+    api_version: 44ec81b4f6f9adbc91dbf3305e787bb37e7faba2
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump django-money from 3.4.1 to 3.5.2 (№607)"
+    sentry_release: "⬆️ Bump drf-spectacular from 0.26.5 to 0.27.2 (№609)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
