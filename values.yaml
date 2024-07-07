@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 4af95e4cd495b58c33eeb3f3c04409746aa8fe23
+    api_version: 835e6d83af520c7c491256a272fe6fac2a24b847
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump channels-redis from 4.1.0 to 4.2.0 (№552)"
+    sentry_release: "⬆️ Bump django-filter from 23.3 to 24.2 (№553)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
