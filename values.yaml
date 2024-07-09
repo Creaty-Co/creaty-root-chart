@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: e5b11f79d43ad70f6358d7175cc78e36b6307f0e
+    api_version: a4649b41cf4e9acce0b095a730d7be6e7d5369a5
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump django-modeltranslation from 0.18.11 to 0.19.5 (№614)"
+    sentry_release: "⬆️ Bump sentry-sdk from 2.7.1 to 2.8.0 (№617)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
