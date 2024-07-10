@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: b57db678dd933f631cc34df7fadca7294f3ec879
+    api_version: 3657e25e4620e9a8e797da58c062a1ca106f2c02
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump actions--setup-python from 5.1.0 to 5.1.1 (№620)"
+    sentry_release: "⬆️ Bump google-auth-oauthlib from 1.2.0 to 1.2.1 (№619)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
