@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: a4649b41cf4e9acce0b095a730d7be6e7d5369a5
+    api_version: ed9cb538bf8d3a1d1b5fa8b903b8b748f2d3306f
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump sentry-sdk from 2.7.1 to 2.8.0 (№617)"
+    sentry_release: "⬆️ Bump django-debug-toolbar from 4.4.5 to 4.4.6 (№622)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
