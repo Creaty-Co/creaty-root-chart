@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 3657e25e4620e9a8e797da58c062a1ca106f2c02
+    api_version: a57891f9ed593c13d49529cb61c79bcb919a314b
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump google-auth-oauthlib from 1.2.0 to 1.2.1 (№619)"
+    sentry_release: "⬆️ Bump django from 5.0.6 to 5.0.7 (№618)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
