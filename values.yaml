@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: a57891f9ed593c13d49529cb61c79bcb919a314b
+    api_version: a67bef8a3d759944b6ed82973f9c7f4412dc0621
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump django from 5.0.6 to 5.0.7 (№618)"
+    sentry_release: "⬆️ Bump coverage from 7.5.4 to 7.6.0 (№624)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
