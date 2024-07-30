@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 608a3df6f4648e3f30f0366639092426e84dced0
+    api_version: 6173525842cb1ae4c54b09a6d7d85eb95cc133bd
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump google-api-python-client from 2.137.0 to 2.138.0 (№633)"
+    sentry_release: "[pre-commit.ci] pre-commit autoupdate (№635)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
