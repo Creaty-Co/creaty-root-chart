@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: c7ec36fd47034959473ecff0f06436423e1dab4c
+    api_version: 8b26385739a2ea2d194775be8b94081cc54fe2eb
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump redis from 5.0.7 to 5.0.8 (№636)"
+    sentry_release: "⬆️ Bump sentry-sdk from 2.11.0 to 2.12.0 (№638)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
