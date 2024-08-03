@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 8e53b96bfc6c1da981ba3d6dfcb9fa897b31f43a
+    api_version: abc6753e162821c818685fc940e7859367319a63
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump google-api-python-client from 2.138.0 to 2.139.0 (№637)"
+    sentry_release: "⬆️ Bump docker--setup-buildx-action from 3.6.0 to 3.6.1 (№639)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
