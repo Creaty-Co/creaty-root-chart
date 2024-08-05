@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 613354bde1b8d355e47f6cdd0e0a57a0693c0ba5
+    api_version: 1c23932fc403de7e9d932b0f9e68b48344686053
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "fix docker compose"
+    sentry_release: "⬆️ Bump django-money from 3.5.2 to 3.5.3 (№640)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
