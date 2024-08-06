@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 1c23932fc403de7e9d932b0f9e68b48344686053
+    api_version: 27b456869e1cd7fd01c12f7e7817732ef6e70d76
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump django-money from 3.5.2 to 3.5.3 (№640)"
+    sentry_release: "[pre-commit.ci] pre-commit autoupdate (№645)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
