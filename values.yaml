@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 3a0a0b5eaa7e0262c58c1fcbc9cce6c765751ce2
+    api_version: b10e9367d22d768cabb690a265c13ee8fabf3322
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump coverage from 7.6.0 to 7.6.1 (№644)"
+    sentry_release: "⬆️ Bump pybase64 from 1.3.2 to 1.4.0 (№643)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
