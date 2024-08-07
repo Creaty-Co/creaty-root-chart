@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: bd2fe50e67f155d4997d43882bb5fc1afaf5d315
+    api_version: 8fb7327a82a816eea9a2bf01a05c1878c94100a7
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump django-modeltranslation from 0.19.5 to 0.19.6 (№647)"
+    sentry_release: "⬆️ Bump google-api-python-client from 2.139.0 to 2.140.0 (№648)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
