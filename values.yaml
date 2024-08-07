@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 90991a890faed172c6379a6597df99d8333508bc
+    api_version: bd2fe50e67f155d4997d43882bb5fc1afaf5d315
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump django-filter from 24.2 to 24.3 (№641)"
+    sentry_release: "⬆️ Bump django-modeltranslation from 0.19.5 to 0.19.6 (№647)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
