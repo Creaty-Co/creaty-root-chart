@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: b10e9367d22d768cabb690a265c13ee8fabf3322
+    api_version: c6625a735fd73f638a5ef174b88bdcfc2150883e
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump pybase64 from 1.3.2 to 1.4.0 (№643)"
+    sentry_release: "⬆️ Bump django from 5.0.7 to 5.0.8 (№646)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
