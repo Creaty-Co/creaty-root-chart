@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: c6625a735fd73f638a5ef174b88bdcfc2150883e
+    api_version: 367df997c0d1d339c4da7cd33602b4125b9767d7
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump django from 5.0.7 to 5.0.8 (№646)"
+    sentry_release: "⬆️ Bump docker--build-push-action from 6.5.0 to 6.6.0 (№650)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
