@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 43bd6cc684f23cf0ae279156565d97c70079b01d
+    api_version: 594fb57780b58646c06c7e274174863137785324
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump python from 3.12.4 to 3.12.5 (№651)"
+    sentry_release: "⬆️ Bump docker--build-push-action from 6.6.0 to 6.6.1 (№652)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
