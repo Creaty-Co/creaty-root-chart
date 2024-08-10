@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 284fc78f4bf67b41d961622ba9d7f9887826742f
+    api_version: c4a38f2fe4baa39482b7a1a70baf2e0f47592c05
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump faker from 26.0.0 to 26.1.0 (№642)"
+    sentry_release: "⬆️ Bump orjson from 3.10.6 to 3.10.7 (№654)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
