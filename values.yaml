@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: c4a38f2fe4baa39482b7a1a70baf2e0f47592c05
+    api_version: d465653a50f86fc415390691e89b11757ebb9f19
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump orjson from 3.10.6 to 3.10.7 (№654)"
+    sentry_release: "⬆️ Bump docker--build-push-action from 6.6.1 to 6.7.0 (№658)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
