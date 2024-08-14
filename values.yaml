@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: d465653a50f86fc415390691e89b11757ebb9f19
+    api_version: 7414855f579bad766205f24163a4355826ec0d8a
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump docker--build-push-action from 6.6.1 to 6.7.0 (№658)"
+    sentry_release: "⬆️ Bump gunicorn from 22.0.0 to 23.0.0 (№657)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
