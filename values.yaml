@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 803639280833e0d59e64a109a1f95d2cfcd3302f
+    api_version: cf81674c259bbd257ef92c0a355853aced2b22f5
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump google-api-python-client from 2.140.0 to 2.141.0 (№660)"
+    sentry_release: "⬆️ Bump factory-boy from 3.3.0 to 3.3.1 (№662)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
