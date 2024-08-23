@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: cf81674c259bbd257ef92c0a355853aced2b22f5
+    api_version: b2ac9725af5f6652be824525e5e556a7db213881
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump factory-boy from 3.3.0 to 3.3.1 (№662)"
+    sentry_release: "⬆️ Bump faker from 27.0.0 to 27.4.0 (№664)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
