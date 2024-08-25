@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 8eab60c95460c5f6924749e15c0305999353ecfd
+    api_version: 1d0cd56bc852736c81a723c8bc00565d0ce78b17
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump django from 5.0.8 to 5.1 (№649)"
+    sentry_release: "⬆️ Bump google-api-python-client from 2.141.0 to 2.142.0 (№663)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
