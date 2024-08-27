@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 1d0cd56bc852736c81a723c8bc00565d0ce78b17
+    api_version: 827a35fa8576871f5b867ea7306cfaa846853aad
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump google-api-python-client from 2.141.0 to 2.142.0 (№663)"
+    sentry_release: "⬆️ Bump faker from 27.4.0 to 28.0.0 (№666)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
