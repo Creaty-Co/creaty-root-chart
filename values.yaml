@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 827a35fa8576871f5b867ea7306cfaa846853aad
+    api_version: fd2f156ad2cf0f7fdac7257bb61238d9d8bd0a15
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump faker from 27.4.0 to 28.0.0 (№666)"
+    sentry_release: "⬆️ Bump actions--setup-python from 5.1.1 to 5.2.0 (№668)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
