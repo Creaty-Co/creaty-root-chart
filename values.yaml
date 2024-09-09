@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 0c8443d9fb80c7119e8df0b05554c26008cfec2c
+    api_version: 0308fcba3d3cf88ec7118157361da7d305abac62
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump pydantic[email] from 2.8.2 to 2.9.0 (№674)"
+    sentry_release: "⬆️ Bump certifi from 2024.7.4 to 2024.8.30 (№670)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
