@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: b2c02f39f6f3169489fd0fc507f512c927a10014
+    api_version: 80dc0f75f10f979af17e8757c839af0cf75b5f1b
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump google-api-python-client from 2.142.0 to 2.143.0 (№667)"
+    sentry_release: "⬆️ Bump sentry-sdk from 2.13.0 to 2.14.0 (№678)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
