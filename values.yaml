@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 7c05673e2b92f8c2dc9d4c29380a9e13d9be56ad
+    api_version: 87c652bc53712aa088d5d0e1182d5d0dbf5f8a9b
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump pydantic[email] from 2.9.0 to 2.9.1 (№675)"
+    sentry_release: "⬆️ Bump django-modeltranslation from 0.19.8 to 0.19.9 (№676)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
