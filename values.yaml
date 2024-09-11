@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 80dc0f75f10f979af17e8757c839af0cf75b5f1b
+    api_version: 8f0a2cf712890124387b8576b6b27d2871c4903f
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump sentry-sdk from 2.13.0 to 2.14.0 (№678)"
+    sentry_release: "⬆️ Bump python from 3.12.5 to 3.12.6 (№679)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
