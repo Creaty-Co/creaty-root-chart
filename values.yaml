@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: e3715e3e9ab0889508ce07c99cc2e0fd1d79742c
+    api_version: 2c7224c344813e0ea5cc0f695cb486a4146c2827
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump google-api-python-client from 2.144.0 to 2.145.0 (№680)"
+    sentry_release: "⬆️ Bump psycopg from 3.2.1 to 3.2.2 (№681)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
