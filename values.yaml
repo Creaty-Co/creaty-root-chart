@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 2c7224c344813e0ea5cc0f695cb486a4146c2827
+    api_version: cf604cb591bcc72c8e42bdc847200937d9fc16c5
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump psycopg from 3.2.1 to 3.2.2 (№681)"
+    sentry_release: "⬆️ Bump django-cleanup from 8.1.0 to 9.0.0 (№686)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
