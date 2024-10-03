@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: cf604cb591bcc72c8e42bdc847200937d9fc16c5
+    api_version: 556462a59bba86ad5b67bfaf56aa26105061c1ed
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump django-cleanup from 8.1.0 to 9.0.0 (№686)"
+    sentry_release: "⬆️ Bump redis from 5.0.8 to 5.1.0 (№689)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
