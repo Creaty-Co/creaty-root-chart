@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 8b22b202ac5dd0a8f98c9d588e831284c70f9a8a
+    api_version: 411d11b3b09426dd5e11316b543954f34c2751db
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump pydantic[email] from 2.9.1 to 2.9.2 (№683)"
+    sentry_release: "[pre-commit.ci] pre-commit autoupdate (№695)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
