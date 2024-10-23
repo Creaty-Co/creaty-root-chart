@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: 87e53ec612aa30caea90af7fc50d390b71ca4351
+    api_version: c4bc4c162b9500a05edb94817bcc5e01b7fd3b31
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "⬆️ Bump coverage from 7.6.1 to 7.6.2 (№697)"
+    sentry_release: "[pre-commit.ci] pre-commit autoupdate (№699)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
