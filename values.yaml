@@ -1,8 +1,8 @@
 environments:
   dev:
-    api_version: c4bc4c162b9500a05edb94817bcc5e01b7fd3b31
+    api_version: 72850f537dfbcd4e42f8ed74936efc2f261bb7ba
     web_version: 2a7828677d921e29eef654c55db695292159e6b6
-    sentry_release: "[pre-commit.ci] pre-commit autoupdate (№699)"
+    sentry_release: "⬆️ Bump django from 5.1.1 to 5.1.2 (№698)"
     platform_version: 496ee487477e306e401e17b88708502d06155519
   stage:
     enabled: false
